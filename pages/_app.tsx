@@ -9,7 +9,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <PrivyProvider appId="cmkn4ut3u00kijp0cvfbqbk6l"
     config={{
       loginMethods: ['wallet'],
-      embeddedWallets: { createOnLogin: 'users-without-wallets',
+      embeddedWallets: { 
       },
     }}>
       <Component {...pageProps} />
