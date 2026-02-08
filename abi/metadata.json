@@ -1,0 +1,11 @@
+{
+  "name": "Iron Sword",
+  "description": "Common iron sword forged by village blacksmith",
+  "image": "ipfs://QmImageHash",
+  "attributes": [
+    { "trait_type": "Rarity", "value": "Common" },
+    { "trait_type": "Type", "value": "Weapon" },
+    { "trait_type": "Item ID", "value": 12 },
+    { "trait_type": "Player Item ID", "value": 451 }
+  ]
+}
