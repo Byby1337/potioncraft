@@ -2,7 +2,8 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { usePrivy } from '@privy-io/react-auth';
 import NFTList from '../components/NFTList';
-import ProfileHeader from '../components/Navbar';
+import ProfileHeader from "../components/ProfileHeader";
+
 
 export default function ProfilePage() {
   const { authenticated, user, ready } = usePrivy();

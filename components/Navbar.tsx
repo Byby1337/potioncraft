@@ -2,6 +2,8 @@ import React from 'react';
 import { usePrivy } from '@privy-io/react-auth';
 import ProfileButton from '../components/ProfileButton';
 import Link from "next/link"
+
+
 export default function Navbar() {
   const { user, login, logout } = usePrivy();
   const address = user?.wallet?.address;
